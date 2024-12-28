@@ -1,0 +1,96 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin-left: 20px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      color: #333;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+
+    }
+
+    .about-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile-pic img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+
+
+    .social-media a {
+      margin-right: 10px;
+    }
+
+    .social-media i {
+      font-size: 1.2rem;
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+
+    li::before {
+        content: "\2022";
+        color: #333;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
